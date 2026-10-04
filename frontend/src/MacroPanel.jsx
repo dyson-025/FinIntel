@@ -60,7 +60,7 @@ export default function MacroPanel({ macro }) {
   };
 
   return (
-    <section className="data-section">
+    <section className="data-section macro-panel">
       <div className="section-heading">
         <div>
           <span className="eyebrow">MACROECONOMIC INTELLIGENCE</span>

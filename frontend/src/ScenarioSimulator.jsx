@@ -156,7 +156,7 @@ export default function ScenarioSimulator({ initialAssets = [] }) {
             <span />
           </div>
           {rows.map((row, index) => (
-            <div className="scenario-table-row" key={`${row.symbol}-${index}`}>
+            <div className="scenario-table-row" key={index}>
               <input
                 value={row.symbol}
                 onChange={(e) => updateRow(index, "symbol", e.target.value)}
