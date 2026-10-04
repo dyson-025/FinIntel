@@ -1,0 +1,39 @@
+.scenario-simulator-card{padding:20px;border:1px solid rgba(255,255,255,.08);border-radius:16px;background:rgba(255,255,255,.02)}
+.scenario-table{display:flex;flex-direction:column;gap:10px}
+.scenario-table-head,.scenario-table-row{display:grid;grid-template-columns:minmax(110px,1.5fr) minmax(90px,1fr) minmax(90px,1fr) 36px;gap:10px;align-items:center}
+.scenario-table-head{padding:0 4px 4px;color:var(--text-muted,#8994a6);font-size:10px;letter-spacing:.12em}
+.scenario-table-row input{width:100%;box-sizing:border-box;border:1px solid rgba(255,255,255,.08);border-radius:9px;background:rgba(0,0,0,.15);color:inherit;padding:10px 11px;outline:none}
+.scenario-table-row input:focus{border-color:rgba(125,211,252,.45)}
+.scenario-remove,.scenario-add,.scenario-run{border:1px solid rgba(255,255,255,.1);border-radius:9px;background:transparent;color:inherit;cursor:pointer;padding:10px 12px}
+.scenario-remove{padding:8px;font-size:18px;line-height:1}
+.scenario-remove:disabled,.scenario-add:disabled,.scenario-run:disabled{opacity:.45;cursor:not-allowed}
+.scenario-controls{margin-top:16px;padding-top:14px;border-top:1px solid rgba(255,255,255,.08);display:flex;justify-content:space-between;gap:16px;align-items:center;flex-wrap:wrap}
+.scenario-weight-ok,.scenario-weight-warning{font-size:12px}.scenario-weight-ok{color:#7dd3fc}.scenario-weight-warning{color:#fbbf24}
+.scenario-actions{display:flex;gap:8px}.scenario-run{font-weight:700;padding-inline:16px;background:rgba(125,211,252,.1);border-color:rgba(125,211,252,.3)}
+.scenario-error{margin-top:14px;padding:10px 12px;border-radius:9px;border:1px solid rgba(248,113,113,.25);font-size:12px}
+.scenario-results{margin-top:18px;padding-top:18px;border-top:1px solid rgba(255,255,255,.08)}
+.scenario-result-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.scenario-result-stat{padding:14px;border-radius:12px;border:1px solid rgba(255,255,255,.07);background:rgba(255,255,255,.025)}
+.scenario-result-stat span{display:block;font-size:10px;letter-spacing:.1em;color:var(--text-muted,#8994a6);margin-bottom:7px}.scenario-result-stat strong{font-size:20px}
+.scenario-breakdown{margin-top:12px;border:1px solid rgba(255,255,255,.07);border-radius:12px;overflow:hidden}.scenario-breakdown-row{display:grid;grid-template-columns:1.4fr .8fr .8fr .8fr;gap:8px;padding:11px 13px;border-bottom:1px solid rgba(255,255,255,.06);font-size:12px}.scenario-breakdown-row:last-child{border-bottom:0}.scenario-breakdown-row strong{text-align:right}
+.scenario-breakdown-row span:nth-child(2),.scenario-breakdown-row span:nth-child(3){text-align:right;color:var(--text-muted,#8994a6)}
+.scenario-hedge{margin-top:12px;padding:14px;border-radius:12px;border:1px solid rgba(125,211,252,.15);background:rgba(125,211,252,.04)}.scenario-hedge strong{display:block;margin-top:5px}.scenario-hedge p{margin:7px 0 0;font-size:12px;color:var(--text-muted,#8994a6)}
+@media (max-width:700px){.scenario-result-grid{grid-template-columns:1fr}.scenario-table-head,.scenario-table-row{grid-template-columns:1.2fr .8fr .8fr 32px}.scenario-simulator-card{padding:14px}.scenario-actions{width:100%}.scenario-add,.scenario-run{flex:1}}
+.scenario-correlation {
+  margin-top: 14px;
+  padding: 14px 16px;
+  border: 1px solid var(--border, rgba(255,255,255,0.08));
+  border-radius: 12px;
+  background: var(--panel, rgba(255,255,255,0.025));
+}
+
+.scenario-correlation strong {
+  display: block;
+  margin-top: 4px;
+  font-size: 16px;
+}
+
+.scenario-correlation p {
+  margin: 6px 0 0;
+  font-size: 12px;
+  opacity: 0.65;
+}

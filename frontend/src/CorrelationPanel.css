@@ -1,0 +1,143 @@
+.correlation-panel {
+  margin-top: 24px;
+}
+
+.correlation-pairs {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.correlation-pair-card {
+  border: 1px solid var(--border, rgba(255,255,255,0.08));
+  border-radius: 14px;
+  padding: 18px;
+  background: var(--panel, rgba(255,255,255,0.025));
+}
+
+.correlation-pair-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.correlation-pair-title strong {
+  font-size: 18px;
+}
+
+.correlation-pair-title strong span {
+  opacity: 0.45;
+  padding: 0 4px;
+}
+
+.correlation-badge {
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  white-space: nowrap;
+  opacity: 0.7;
+}
+
+.correlation-score {
+  margin-top: 16px;
+  font-size: 42px;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+}
+
+.correlation-meta {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 12px;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  opacity: 0.55;
+}
+
+.correlation-bar {
+  height: 5px;
+  margin-top: 14px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: rgba(255,255,255,0.07);
+}
+
+.correlation-bar span {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: currentColor;
+  opacity: 0.8;
+}
+
+.correlation-matrix-wrap {
+  margin-top: 18px;
+  border-top: 1px solid var(--border, rgba(255,255,255,0.08));
+  padding-top: 18px;
+}
+
+.correlation-matrix-heading {
+  margin-bottom: 12px;
+}
+
+.correlation-matrix-subtitle {
+  display: block;
+  margin-top: 4px;
+  font-size: 12px;
+  opacity: 0.5;
+}
+
+.correlation-matrix-scroll {
+  overflow-x: auto;
+}
+
+.correlation-matrix {
+  width: 100%;
+  min-width: 520px;
+  border-collapse: collapse;
+}
+
+.correlation-matrix th,
+.correlation-matrix td {
+  padding: 11px 12px;
+  text-align: center;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+  font-size: 12px;
+}
+
+.correlation-matrix th:first-child,
+.correlation-matrix tbody th {
+  text-align: left;
+}
+
+.correlation-matrix tbody th {
+  font-weight: 600;
+}
+
+.correlation-source {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 16px;
+  padding-top: 12px;
+  border-top: 1px solid var(--border, rgba(255,255,255,0.08));
+  font-size: 11px;
+  opacity: 0.6;
+}
+
+.correlation-source span:first-child {
+  letter-spacing: 0.08em;
+}
+
+@media (max-width: 760px) {
+  .correlation-pairs {
+    grid-template-columns: 1fr;
+  }
+
+  .correlation-pair-title {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}

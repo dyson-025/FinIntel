@@ -1,0 +1,142 @@
+[
+  {
+    "title": "2000 Dot-Com Bubble Decline",
+    "date": "2000",
+    "category": "technology",
+    "description": "The technology-heavy equity market experienced a major decline as the dot-com bubble unwound. Many internet and technology companies saw sharp valuation contractions as investors reassessed growth expectations.",
+    "assets": ["QQQ", "INTC", "CSCO", "AAPL"]
+  },
+  {
+    "title": "2008 Global Financial Crisis",
+    "date": "2008",
+    "category": "financial_crisis",
+    "description": "Financial markets experienced severe stress during the global financial crisis. Problems in housing and credit markets spread through the financial system, leading to major declines in equity markets and increased market volatility.",
+    "assets": ["SPY", "QQQ", "JPM", "BAC", "AAPL"]
+  },
+  {
+    "title": "2010 Flash Crash",
+    "date": "2010",
+    "category": "market_volatility",
+    "description": "US equity markets experienced a rapid intraday decline followed by a substantial recovery. The episode highlighted the potential for extreme short-term volatility and liquidity disruptions in electronic markets.",
+    "assets": ["SPY", "QQQ", "AAPL", "MSFT"]
+  },
+  {
+    "title": "2011 US Debt Downgrade and Eurozone Stress",
+    "date": "2011",
+    "category": "macro",
+    "description": "Financial markets experienced elevated volatility amid concerns about US fiscal conditions and the European sovereign debt crisis. Investors increased demand for perceived defensive assets while equity markets came under pressure.",
+    "assets": ["SPY", "QQQ", "JPM", "AAPL"]
+  },
+  {
+    "title": "2013 Taper Tantrum",
+    "date": "2013",
+    "category": "interest_rates",
+    "description": "Financial markets reacted sharply to expectations that the Federal Reserve would reduce the pace of its asset purchases. Rising Treasury yields were accompanied by volatility across equities and other risk assets.",
+    "assets": ["SPY", "QQQ", "TLT"]
+  },
+  {
+    "title": "2015 China Yuan Devaluation",
+    "date": "2015",
+    "category": "global_markets",
+    "description": "A change in China's currency policy contributed to a period of global market volatility. Concerns about Chinese growth, commodities, and global economic conditions contributed to sharp movements in equity markets.",
+    "assets": ["SPY", "QQQ", "AAPL", "NVDA"]
+  },
+  {
+    "title": "2018 Technology and Equity Selloff",
+    "date": "2018",
+    "category": "technology",
+    "description": "Global equity markets experienced significant volatility during 2018. Technology stocks declined sharply during the fourth quarter amid concerns about economic growth, trade tensions, and tighter financial conditions.",
+    "assets": ["QQQ", "AAPL", "NVDA", "AMD"]
+  },
+  {
+    "title": "2019 US-China Trade War Volatility",
+    "date": "2019",
+    "category": "trade",
+    "description": "US-China trade tensions produced repeated periods of market volatility as investors assessed the potential effects of tariffs, supply chains, global growth, and corporate earnings.",
+    "assets": ["SPY", "QQQ", "AAPL", "NVDA", "AMD"]
+  },
+  {
+    "title": "2020 COVID Market Crash",
+    "date": "2020",
+    "category": "market_crash",
+    "description": "Global equity markets experienced a rapid decline during the initial COVID-19 shock. Technology stocks also declined sharply before recovering as monetary and fiscal support increased.",
+    "assets": ["SPY", "QQQ", "NVDA", "AMD", "AAPL"]
+  },
+  {
+    "title": "2020 Oil Price Shock",
+    "date": "2020",
+    "category": "commodities",
+    "description": "The COVID-19 shock produced an unprecedented collapse in energy demand, contributing to extreme volatility in oil markets. Energy-related assets experienced substantial stress while broader financial markets were also highly volatile.",
+    "assets": ["SPY", "XOM", "CVX", "USO"]
+  },
+  {
+    "title": "2020 Technology Recovery",
+    "date": "2020",
+    "category": "technology_recovery",
+    "description": "Following the initial COVID market shock, technology companies recovered strongly as demand for cloud computing, digital services, and remote-work technology increased.",
+    "assets": ["QQQ", "AAPL", "MSFT", "NVDA", "AMD"]
+  },
+  {
+    "title": "2021 Global Semiconductor Shortage",
+    "date": "2021",
+    "category": "semiconductors",
+    "description": "A global semiconductor supply shortage affected multiple industries. Investors focused on chip production capacity, supply constraints, inventory levels, and demand for computing and electronics.",
+    "assets": ["NVDA", "AMD", "TSM", "INTC"]
+  },
+  {
+    "title": "2021 Meme Stock Volatility",
+    "date": "2021",
+    "category": "market_volatility",
+    "description": "Several heavily shorted stocks experienced extreme price movements as retail trading activity, social-media attention, and short-covering dynamics produced unusually high volatility.",
+    "assets": ["GME", "AMC", "BB"]
+  },
+  {
+    "title": "US Interest Rate Hike 2022",
+    "date": "2022",
+    "category": "interest_rates",
+    "description": "The US Federal Reserve rapidly increased interest rates during 2022 to fight high inflation. Growth-oriented technology stocks experienced significant pressure as borrowing costs increased and valuation multiples contracted.",
+    "assets": ["QQQ", "NVDA", "AMD", "AAPL"]
+  },
+  {
+    "title": "2022 Technology Selloff",
+    "date": "2022",
+    "category": "technology",
+    "description": "Technology stocks experienced substantial declines during 2022 as higher interest rates reduced valuations and investors became more cautious about high-growth companies.",
+    "assets": ["QQQ", "NVDA", "AMD", "META"]
+  },
+  {
+    "title": "2022 Semiconductor Downturn",
+    "date": "2022",
+    "category": "semiconductors",
+    "description": "Semiconductor stocks experienced substantial volatility during 2022 amid tighter financial conditions, changing demand expectations, inventory concerns, and a broader technology-sector selloff.",
+    "assets": ["NVDA", "AMD", "INTC", "TSM"]
+  },
+  {
+    "title": "2023 US Regional Banking Stress",
+    "date": "2023",
+    "category": "banking",
+    "description": "Several US regional banks experienced significant stress in early 2023. Concerns about bank liquidity, deposit outflows, interest-rate exposure, and confidence contributed to volatility across financial stocks.",
+    "assets": ["JPM", "BAC", "GS", "SPY"]
+  },
+  {
+    "title": "2023 AI Semiconductor Rally",
+    "date": "2023",
+    "category": "ai",
+    "description": "Demand expectations surrounding generative AI infrastructure contributed to strong performance in semiconductor companies, particularly companies exposed to AI accelerators and data center computing.",
+    "assets": ["NVDA", "AMD"]
+  },
+  {
+    "title": "2024 Semiconductor Volatility",
+    "date": "2024",
+    "category": "semiconductors",
+    "description": "Semiconductor stocks experienced periods of strong gains and sharp volatility as investors reassessed AI demand, chip supply, competition, and valuation expectations.",
+    "assets": ["NVDA", "AMD", "TSM"]
+  },
+  {
+    "title": "2024 AI Infrastructure Investment Cycle",
+    "date": "2024",
+    "category": "ai",
+    "description": "Investment in data centers, accelerators, networking infrastructure, and other technologies supporting artificial intelligence became an important theme in technology markets. Semiconductor and infrastructure companies experienced significant investor attention and price volatility.",
+    "assets": ["NVDA", "AMD", "AVGO", "TSM"]
+  }
+]
